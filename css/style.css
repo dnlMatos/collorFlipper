@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #8C7E7E;
+    background: #D9D9D9;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.elementos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.elementos h1{
+    font-size: 2em;
+}
+
+.elementos .contador{
+    color: #7E878C;
+}
+
+.elementos .botoes{
+    margin-top: 10px;
+}
+
+.elementos button{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.elementos button:hover{
+    background: #8C7E7E;
+    color: white;
+    border: 1px solid #C3D0D9;
+    transition: all ease-in 0.15s
+}
