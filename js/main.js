@@ -1,17 +1,16 @@
-let cont = 0;
-
-function funcaoContador() {
-    let valor = document.querySelector('.contador');
-    let btnDec = document.querySelector('.decrementar');
-    let btnRes = document.querySelector('.resetar');
-    let btnInc = document.querySelector('.incrementar');
-    let click = event.target;
-    if (click == btnDec) {
-        cont -= 1;
-    } else if (click == btnRes) {
-        cont = 0;
-    } else if (click == btnInc) {
-        cont += 1;
+var hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
+let btn = document.querySelector(".btn");
+var color = document.querySelector('.corHexadecimal');
+btn.addEventListener("click", function(){
+    let hexColor = '#';
+    for (let i = 0; i < 6; i++) {
+        hexColor += hex[valorAleatorio()];
     }
-    valor.textContent = cont;
+
+    color.textContent = hexColor;
+    document.body.style.backgroundColor = hexColor;
+});
+
+function valorAleatorio() {
+    return Math.floor(Math.random() * hex.length)
 }
