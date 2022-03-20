@@ -14,7 +14,7 @@
 ![](https://github.com/dnlMatos/collorFlipper/blob/main/color-flipper.gif)
 
 <div>  
-  <a href="https://github.com/dnlMatos/collorFlipper">  
+  <a href="https://github.com/dnlMatos">  
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dnlMatos&layout=compact&langs_count=7&theme=default"/>  
 </div>
 
