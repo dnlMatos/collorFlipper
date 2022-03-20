@@ -6,12 +6,10 @@
 <a href="https://www.linkedin.com/in/georgine-danilo" alt="linkedin" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 
-### The design manipulates six elements of a vector at random. The code is presented in hexadecimal form and applied to the background of the page
+#### Here, we only use HTML, CSS and JS
+#### The design manipulates six elements of a vector at random. The code is presented in hexadecimal form and applied to the background of the page
 ![](https://github.com/dnlMatos/collorFlipper/blob/main/color-flipper.gif)
 
-### Project that features an animated card.
-#### Here, we only use HTML, CSS and JS
-![responsiveCard](https://github.com/dnlMatos/cardResponsive/blob/main/ezgif.com-gif-maker%20(2).gif)
 <div>  
   <a href="https://github.com/dnlMatos">  
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dnlMatos&layout=compact&langs_count=7&theme=default"/>  
